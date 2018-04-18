@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: yMaw5wOrxd7vFrdYu/PR5cr/UM2QM0+Fl0a7V5fL2PpZN3uU/fIXiGVr1vdNb3FQUfd4WdB7EIrOT9Ns/ICErenVIdW2129h3DaSv1ZR5utsN+qL71oedaqcTuiwUpDC6O1f+tNerIMuLPA3yuDlvlvjHne87Lamv7wIxHx3pogqDt4y0VUu3dmFm7DB1M/Dm9gyuIussVC4HwV0y7lp2GvdIu9Be3yf1vCfcjYno3nYAdvJ3+5RGRDBqVRaTa/steHJj/gXXPcMaVEKXrky2Sfyfaki/htSwpGXd3CzOA7CkSUDzOso5DLrdrfXhx3ZAsoAGfiRE5okMhX6mMF6cOw4sSoSvoeUce6toNMWQv4L/HUMrIH3F/IIDjeVzM4NKM3CoVg3ZliKLQepMTz+sPQl4VmAp4ueFAD2vE95blVklV0MLAQpQAH5xnQqCni9xRfm3lCO3om+WeqkVaKfWnpj/FNs95yPQH5xA4ScrJrPnvGTxm01dWRvrQ8Gzb3PP6PvqXwVGvtmwbCDsWMjf8L68v9mEI++677e1aT4JDNfCOua6o+zbbQm+W7vki3vyFY5EjshEp6BCZXBFtdBJLX0wEO1tcdsRGtZTN5VZ1XpQ4dhd9NdBmyhpnJ/Qi4w3DY73x6oh8Up+RdcIRMg55g6yPaARbF5tU8TtJaGAc8=
+  app: immense-inlet-26926
+  on:
+    repo: venniechang/node-shopping-list-integration-tests
